@@ -62,4 +62,17 @@
   echo ""
   curl -L -o ~/Lilu.zip https://github.com/acidanthera/Lilu/releases/download/"$vUltVersLilu"/Lilu-"$vUltVersLilu"-RELEASE.zip
   echo ""
-                        https://github.com/acidanthera/Lilu/releases/download/1.6.7/Lilu-1.6.7-RELEASE.zip
+
+# Descomprimir el zip
+  echo ""
+  echo "  Descomprimiendo Lilu.zip.zip..."
+  echo ""
+  unzip ~/Lilu.zip -d ~/Lilu
+  echo ""
+
+# Mover Lilu.kext a la carpeta OpenCore
+  echo ""
+  echo "  Moviendo Lilu.kext a la carpeta OpenCore..."
+  echo ""
+  mv ~/Lilu/Lilu.kext ~/OpenCore/X64/EFI/OC/Kexts/
+  echo ""
