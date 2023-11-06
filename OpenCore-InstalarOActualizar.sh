@@ -91,7 +91,7 @@
   echo ""
   echo "  Descargando el archivo zip de la versión $vUltVersWhateverGreen..."
   echo ""
-  curl -L -o ~/WhateverGreen.zip https://github.com/acidanthera/WhateverGreen/releases/download/"$vUltVersWhateverGreen"/Lilu-"$vUltVersWhateverGreen"-RELEASE.zip
+  curl -L -o ~/WhateverGreen.zip https://github.com/acidanthera/WhateverGreen/releases/download/"$vUltVersWhateverGreen"/WhateverGreen-"$vUltVersWhateverGreen"-RELEASE.zip
   echo ""
 
 # Descomprimir el zip
