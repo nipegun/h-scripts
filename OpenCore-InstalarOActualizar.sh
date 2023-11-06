@@ -34,3 +34,17 @@
   unzip ~/OpenCore.zip -d ~/OpenCore
   echo ""
 
+# Descargar OpenCore configurator
+  echo ""
+  echo "  Descargando la última versión de OpenCore configurator..."
+  echo ""
+  curl -L -o ~/OpenCoreConfigurator.zip https://mackie100projects.altervista.org/apps/opencoreconf/download-new-build.php?version=last
+  echo ""
+
+# Descomprimir el zip
+  echo ""
+  echo "  Descomprimiendo OpenCoreConfigurator.zip..."
+  echo ""
+  unzip ~/OpenCoreConfigurator.zip -d ~/OpenCoreConfigurator
+  echo ""
+
