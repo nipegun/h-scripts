@@ -22,8 +22,8 @@
 
 # Descargar el archivo de la última versión
   echo ""
-  echo "  Descargando el archivo zip de la versión $vUltVersOpenCore"
+  echo "  Descargando el archivo zip de la versión $vUltVersOpenCore..."
   echo ""
-  curl https://github.com/acidanthera/OpenCorePkg/releases/download/"$vUltVersOpenCore"/OpenCore-"$vUltVersOpenCore"-RELEASE.zip
+  curl -o ~/OpenCore.zip https://github.com/acidanthera/OpenCorePkg/releases/download/"$vUltVersOpenCore"/OpenCore-"$vUltVersOpenCore"-RELEASE.zip
 
 
