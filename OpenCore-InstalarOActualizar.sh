@@ -24,5 +24,6 @@
   echo ""
   echo "  Descargando el archivo zip de la versión $vUltVersOpenCore"
   echo ""
-  vURLdelZIP=(curl -sL https://github.com/acidanthera/OpenCorePkg/releases/tag/"$vUltVersOpenCore")
-  
+  curl https://github.com/acidanthera/OpenCorePkg/releases/download/"$vUltVersOpenCore"/OpenCore-"$vUltVersOpenCore"-RELEASE.zip
+
+
