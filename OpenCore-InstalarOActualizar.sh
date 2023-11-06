@@ -24,6 +24,8 @@
   echo ""
   echo "  Descargando el archivo zip de la versión $vUltVersOpenCore..."
   echo ""
-  curl -o ~/OpenCore.zip https://github.com/acidanthera/OpenCorePkg/releases/download/"$vUltVersOpenCore"/OpenCore-"$vUltVersOpenCore"-RELEASE.zip
+  curl -L -o ~/OpenCore.zip https://github.com/acidanthera/OpenCorePkg/releases/download/"$vUltVersOpenCore"/OpenCore-"$vUltVersOpenCore"-RELEASE.zip
+  echo ""
+
 
 
