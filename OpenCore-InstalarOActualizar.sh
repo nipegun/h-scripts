@@ -27,5 +27,10 @@
   curl -L -o ~/OpenCore.zip https://github.com/acidanthera/OpenCorePkg/releases/download/"$vUltVersOpenCore"/OpenCore-"$vUltVersOpenCore"-RELEASE.zip
   echo ""
 
-
+# Descomprimir el zip
+  echo ""
+  echo "  Descomprimiendo el archivo zip..."
+  echo ""
+  unzip ~/OpenCore.zip -d ~/OpenCore
+  echo ""
 
