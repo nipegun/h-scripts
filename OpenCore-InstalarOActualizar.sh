@@ -48,6 +48,7 @@
   unzip ~/OpenCoreConfigurator.zip -d ~/OpenCoreConfigurator
   echo ""
 
+
 # Determinar la última versión de Lilu.kext disponible en GitHub
   echo ""
   echo "  Determinando la última versión de Lilu.kext disponible en GitHub..."
@@ -65,7 +66,7 @@
 
 # Descomprimir el zip
   echo ""
-  echo "  Descomprimiendo Lilu.zip.zip..."
+  echo "  Descomprimiendo Lilu.zip..."
   echo ""
   unzip ~/Lilu.zip -d ~/Lilu
   echo ""
@@ -75,4 +76,34 @@
   echo "  Moviendo Lilu.kext a la carpeta OpenCore..."
   echo ""
   mv ~/Lilu/Lilu.kext ~/OpenCore/X64/EFI/OC/Kexts/
+  echo ""
+
+
+# Determinar la última versión de WhateverGreen.kext disponible en GitHub
+  echo ""
+  echo "  Determinando la última versión de WhateverGreen.kext disponible en GitHub..."
+  echo ""
+  vUltVersWhateverGreen=$(curl -sL https://github.com/acidanthera/WhateverGreen/releases/latest | grep "title>" | grep elease | cut -d'>' -f2 | cut -d' ' -f2 | sed 's- --g')
+  echo "    La última versión es la $vUltVersWhateverGreen"
+  echo ""
+
+# Descargar el archivo de la última versión
+  echo ""
+  echo "  Descargando el archivo zip de la versión $vUltVersWhateverGreen..."
+  echo ""
+  curl -L -o ~/WhateverGreen.zip https://github.com/acidanthera/WhateverGreen/releases/download/"$vUltVersWhateverGreen"/Lilu-"$vUltVersWhateverGreen"-RELEASE.zip
+  echo ""
+
+# Descomprimir el zip
+  echo ""
+  echo "  Descomprimiendo WhateverGreen.zip..."
+  echo ""
+  unzip ~/WhateverGreen.zip -d ~/WhateverGreen
+  echo ""
+
+# Mover WhateverGreen.kext a la carpeta OpenCore
+  echo ""
+  echo "  Moviendo WhateverGreen.kext a la carpeta OpenCore..."
+  echo ""
+  mv ~/WhateverGreen/WhateverGreen.kext ~/OpenCore/X64/EFI/OC/Kexts/
   echo ""
