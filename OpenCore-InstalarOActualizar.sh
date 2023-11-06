@@ -48,3 +48,18 @@
   unzip ~/OpenCoreConfigurator.zip -d ~/OpenCoreConfigurator
   echo ""
 
+# Determinar la última versión de Lilu.kext disponible en GitHub
+  echo ""
+  echo "  Determinando la última versión de Lilu.kext disponible en GitHub..."
+  echo ""
+  vUltVersLilu=$(curl -sL https://github.com/acidanthera/Lilu/releases/latest | grep "title>" | grep elease | cut -d'>' -f2 | cut -d' ' -f2 | sed 's- --g')
+  echo "    La última versión es la $vUltVersLilu"
+  echo ""
+
+# Descargar el archivo de la última versión
+  echo ""
+  echo "  Descargando el archivo zip de la versión $vUltVersLilu..."
+  echo ""
+  curl -L -o ~/Lilu.zip https://github.com/acidanthera/Lilu/releases/download/"$vUltVersLilu"/Lilu-"$vUltVersLilu"-RELEASE.zip
+  echo ""
+                        https://github.com/acidanthera/Lilu/releases/download/1.6.7/Lilu-1.6.7-RELEASE.zip
