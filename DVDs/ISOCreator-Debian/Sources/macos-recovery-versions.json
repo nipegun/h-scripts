@@ -1,0 +1,261 @@
+{
+  "source": "https://github.com/acidanthera/OpenCorePkg/blob/1.0.7/Utilities/macrecovery/recovery_urls.txt",
+  "source_release": "OpenCorePkg 1.0.7",
+  "scope": "Intel recovery families; availability and minor versions are decided by Apple and checked after download",
+  "versions": [
+    {
+      "id": "26",
+      "name": "Tahoe",
+      "selectors": [
+        {
+          "board": "Mac-CFF7D910A743CAAF",
+          "mlb": "00000000000000000",
+          "os": "latest"
+        },
+        {
+          "board": "Mac-27AD2F918AE68F61",
+          "mlb": "00000000000000000",
+          "os": "latest"
+        }
+      ],
+      "group": "recent"
+    },
+    {
+      "id": "15",
+      "name": "Sequoia",
+      "selectors": [
+        {
+          "board": "Mac-7BA5B2D9E42DDD94",
+          "mlb": "00000000000000000",
+          "os": "default"
+        }
+      ],
+      "group": "recent"
+    },
+    {
+      "id": "14",
+      "name": "Sonoma",
+      "selectors": [
+        {
+          "board": "Mac-827FAC58A8FDFA22",
+          "mlb": "00000000000000000",
+          "os": "default"
+        }
+      ],
+      "group": "recent"
+    },
+    {
+      "id": "13",
+      "name": "Ventura",
+      "selectors": [
+        {
+          "board": "Mac-B4831CEBD52A0C4C",
+          "mlb": "00000000000000000",
+          "os": "default"
+        }
+      ],
+      "group": "recent"
+    },
+    {
+      "id": "12",
+      "name": "Monterey",
+      "selectors": [
+        {
+          "board": "Mac-E43C1C25D4880AD6",
+          "mlb": "00000000000000000",
+          "os": "default"
+        }
+      ],
+      "group": "recent"
+    },
+    {
+      "id": "11",
+      "name": "Big Sur",
+      "selectors": [
+        {
+          "board": "Mac-2BD1B31983FE1663",
+          "mlb": "00000000000000000",
+          "os": "default"
+        }
+      ],
+      "group": "previous"
+    },
+    {
+      "id": "10.15",
+      "name": "Catalina",
+      "selectors": [
+        {
+          "board": "Mac-CFF7D910A743CAAF",
+          "mlb": "00000000000PHCD00",
+          "os": "default"
+        },
+        {
+          "board": "Mac-00BE6ED71E35EB86",
+          "mlb": "00000000000000000",
+          "os": "default"
+        }
+      ],
+      "group": "previous"
+    },
+    {
+      "id": "10.14",
+      "name": "Mojave",
+      "selectors": [
+        {
+          "board": "Mac-7BA5B2DFE22DDD8C",
+          "mlb": "00000000000KXPG00",
+          "os": "default"
+        }
+      ],
+      "group": "previous"
+    },
+    {
+      "id": "10.13",
+      "name": "High Sierra",
+      "selectors": [
+        {
+          "board": "Mac-7BA5B2D9E42DDD94",
+          "mlb": "00000000000J80300",
+          "os": "default"
+        },
+        {
+          "board": "Mac-BE088AF8C5EB4FA2",
+          "mlb": "00000000000J80300",
+          "os": "default"
+        }
+      ],
+      "group": "previous"
+    },
+    {
+      "id": "10.12",
+      "name": "Sierra",
+      "selectors": [
+        {
+          "board": "Mac-77F17D7DA9285301",
+          "mlb": "00000000000J0DX00",
+          "os": "default"
+        }
+      ],
+      "group": "previous"
+    },
+    {
+      "id": "10.11",
+      "name": "El Capitan",
+      "selectors": [
+        {
+          "board": "Mac-FFE5EF870D7BA81A",
+          "mlb": "00000000000GQRX00",
+          "os": "default"
+        }
+      ],
+      "group": "osx"
+    },
+    {
+      "id": "10.10",
+      "name": "Yosemite",
+      "selectors": [
+        {
+          "board": "Mac-E43C1C25D4880AD6",
+          "mlb": "00000000000GDVW00",
+          "os": "default"
+        }
+      ],
+      "group": "osx"
+    },
+    {
+      "id": "10.9",
+      "name": "Mavericks",
+      "selectors": [
+        {
+          "board": "Mac-F60DEB81FF30ACF6",
+          "mlb": "00000000000FNN100",
+          "os": "default"
+        }
+      ],
+      "group": "osx"
+    },
+    {
+      "id": "10.8",
+      "name": "Mountain Lion",
+      "selectors": [
+        {
+          "board": "Mac-7DF2A3B5E5D671ED",
+          "mlb": "00000000000F65100",
+          "os": "default"
+        }
+      ],
+      "group": "osx"
+    },
+    {
+      "id": "10.7",
+      "name": "Lion",
+      "selectors": [
+        {
+          "board": "Mac-2E6FAB96566FE58C",
+          "mlb": "00000000000F25Y00",
+          "os": "default"
+        },
+        {
+          "board": "Mac-C3EC7CD22292981F",
+          "mlb": "00000000000F0HM00",
+          "os": "default"
+        }
+      ],
+      "group": "osx"
+    },
+    {
+      "id": "10.6",
+      "name": "Snow Leopard",
+      "selectors": [],
+      "group": "original"
+    },
+    {
+      "id": "10.5",
+      "name": "Leopard",
+      "selectors": [],
+      "group": "original"
+    },
+    {
+      "id": "10.4",
+      "name": "Tiger",
+      "selectors": [],
+      "group": "original"
+    },
+    {
+      "id": "10.3",
+      "name": "Panther",
+      "selectors": [],
+      "group": "powerpc"
+    },
+    {
+      "id": "10.2",
+      "name": "Jaguar",
+      "selectors": [],
+      "group": "powerpc"
+    },
+    {
+      "id": "10.1",
+      "name": "Puma",
+      "selectors": [],
+      "group": "powerpc"
+    },
+    {
+      "id": "10.0",
+      "name": "Cheetah",
+      "selectors": [],
+      "group": "powerpc"
+    },
+    {
+      "id": "latest",
+      "name": "Latest Intel",
+      "selectors": [
+        {
+          "board": "Mac-27AD2F918AE68F61",
+          "mlb": "00000000000000000",
+          "os": "latest"
+        }
+      ],
+      "group": "latest"
+    }
+  ]
+}
